@@ -1,0 +1,9 @@
+{{#if error}}
+  <p>An error occured while loading this Gist.</p>
+{{else}}
+  {{html}}
+
+  {{#if gist.stylesheet}}
+    <link rel="stylesheet" type="text/css" href="{{gist.stylesheet}}">
+  {{/if}}
+{{/if}}

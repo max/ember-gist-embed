@@ -1,0 +1,1 @@
+export { default } from 'gist-embed/components/gist-embed/component';
